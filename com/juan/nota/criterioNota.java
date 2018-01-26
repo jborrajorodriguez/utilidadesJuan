@@ -11,9 +11,14 @@ import javax.swing.JOptionPane;
  * @author Juan
  */
 public class criterioNota {
-
+    
     private static float notaEscrita1, notaEscrita2, practica, nBoletines, nBoletinesTotal, notaTotal, notaBoletin, nota;
-
+    /**
+     * Metodo para calcular una nota de la asignatura de programacion
+     * @param max numero maximo 
+     * @param min numero minimo
+     * @return un valor de tipo int que es la nota final
+     */
     public static float calculoDeNotas(float max,float min) {
         
         do{

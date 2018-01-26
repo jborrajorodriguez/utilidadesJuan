@@ -3,7 +3,10 @@ package com.juan.ordenar;
  * @author Juan Borrajo Rodriguez Nº5937
  */
 public class OrdenarArrays {
-    
+    /**
+     * Metodo que sirve para ordenar Arrays
+     * @param tem nombre de el Array
+     */
     public static void ordArrays(float[]tem){
         int i,j;
         float aux;
